@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Retroica";
+  src: url("/fonts/Retroica.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Game Of Squids";
+  src: url("/fonts/Game Of Squids.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Retron2000";
+  src: url("/fonts/Retron2000.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Louis George Cafe";
+  src: url("/fonts/Louis George Cafe.ttf") format("truetype");
+}
+
+:root {
+  --swiper-navigation-color: #ffffff80;
+  --swiper-pagination-color: #ffffff80;
+}
