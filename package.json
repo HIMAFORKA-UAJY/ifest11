@@ -1,13 +1,12 @@
 {
   "name": "ifest.uajy.ac.id",
-  "version": "1.0.0-rc.6",
+  "version": "1.0.0-rc.7",
   "private": true,
   "description": "iFest#11 main website.",
-  "homepage": "https://github.com/vt92i/ifest.uajy.ac.id",
-  "bugs": "https://github.com/vt92i/ifest.uajy.ac.id/issues",
+  "homepage": "https://github.com/HIMAFORKA-UAJY/ifest11",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vt92i/ifest.uajy.ac.id.git"
+    "url": "https://github.com/HIMAFORKA-UAJY/ifest11.git"
   },
   "author": "Vila <benidiktusvio@gmail.com> (https://github.com/vt92i)",
   "contributors": [
@@ -20,33 +19,33 @@
     "build": "next build && next export",
     "dev": "next dev",
     "preinstall": "npx only-allow pnpm",
-    "lint": "next lint",
+    "lint": "next lint --fix",
     "prepare": "husky install",
-    "pretty": "prettier --write .",
+    "prettier": "prettier --write .",
     "start": "next start"
   },
   "dependencies": {
-    "@headlessui/react": "^1.7.13",
-    "@types/node": "18.15.5",
-    "@types/react": "18.0.28",
-    "@types/react-dom": "18.0.11",
-    "eslint": "8.36.0",
-    "eslint-config-next": "13.2.4",
-    "framer-motion": "^10.6.1",
-    "html-react-parser": "^3.0.12",
-    "moment-timezone": "^0.5.41",
-    "next": "13.2.4",
-    "next-seo": "^5.15.0",
+    "@headlessui/react": "^1.7.14",
+    "@types/node": "20.1.2",
+    "@types/react": "18.2.6",
+    "@types/react-dom": "18.2.4",
+    "eslint": "8.40.0",
+    "eslint-config-next": "13.4.1",
+    "framer-motion": "^10.12.10",
+    "html-react-parser": "^3.0.16",
+    "moment-timezone": "^0.5.43",
+    "next": "13.4.1",
+    "next-seo": "^6.0.0",
     "react": "18.2.0",
-    "react-chrono": "^1.22.0",
+    "react-chrono": "1.22.0",
     "react-countdown": "^2.3.5",
     "react-dom": "18.2.0",
     "react-icons": "^4.8.0",
     "react-type-animation": "^3.0.1",
     "recoil": "^0.7.7",
-    "sharp": "^0.31.3",
-    "swiper": "^9.1.1",
-    "typescript": "5.0.2"
+    "sharp": "^0.32.1",
+    "swiper": "^9.3.1",
+    "typescript": "5.0.4"
   },
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "^4.1.1",
@@ -54,10 +53,10 @@
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^4.2.1",
     "husky": "^8.0.3",
-    "postcss": "^8.4.21",
-    "prettier": "^2.8.6",
+    "postcss": "^8.4.23",
+    "prettier": "^2.8.8",
     "prettier-plugin-packagejson": "^2.4.3",
-    "prettier-plugin-tailwindcss": "^0.2.5",
-    "tailwindcss": "^3.2.7"
+    "prettier-plugin-tailwindcss": "^0.2.8",
+    "tailwindcss": "^3.3.2"
   }
 }

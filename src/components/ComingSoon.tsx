@@ -14,7 +14,7 @@ const ComingSoon: FC<Props> = ({ date }: Props) => {
   return (
     <div className="absolute top-0 -z-10 min-h-screen w-full bg-[url('/images/bg-no-flip.webp')] bg-cover bg-center bg-no-repeat">
       <div className="bg-gradient-to-b from-[#40ba62]/80 to-[#219068]/80 font-retroica">
-        <div className="flex min-h-screen flex-col items-center justify-center gap-8 px-4 pt-32 pb-8">
+        <div className="flex min-h-screen flex-col items-center justify-center gap-8 px-4 pb-8 pt-32">
           <div className="text-center text-4xl font-bold tracking-[0.1em] text-white lg:text-5xl">
             Coming Soon
           </div>

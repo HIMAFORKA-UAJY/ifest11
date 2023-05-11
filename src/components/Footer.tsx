@@ -25,7 +25,7 @@ const Footer: FC<Props> = ({ className }: Props) => {
   return (
     <>
       <div
-        className={`${className} grid justify-center gap-3 px-6 pt-10 pb-4 lg:grid-cols-7 lg:gap-8 lg:px-8`}
+        className={`${className} grid justify-center gap-3 px-6 pb-4 pt-10 lg:grid-cols-7 lg:gap-8 lg:px-8`}
       >
         <motion.div
           animate={{ opacity: 1 }}
