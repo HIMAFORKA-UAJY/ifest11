@@ -103,13 +103,91 @@
       }
     ]
   },
-  "seminar-nasional": {
+  "sharing-alumni": {
     "id": 5,
     "abbreviation": "",
-    "name": "Seminar Nasional",
-    "url": "/acara/seminar-nasional",
+    "name": "Puncak Sharing Alumni",
+    "url": "/acara/sharing-alumni",
     "img": "/images/acara/ill-seminar-nasional.webp",
-    "description": "adalah seminar yang diselenggarakan berskala nasional sebagai media untuk menyampaikan aspirasi dan ide kepada peserta mengenai perkembangan ilmu dan teknologi di tengah kehidupan manusia, khususnya revolusi industri 4.0.",
-    "requirements": ["Umum", "Gratis", "Pendaftaran Online"]
+    "title_top": "“Career Fortune Telling:",
+    "title_bottom": "Information Technology”",
+    "date_available": "2023-04-19 23:59",
+    "date_end": "2023-06-11 23:59",
+    "description": "adalah kegiatan webinar yang dimana bertujuan untuk memberikan gambaran prospek kerja kepada para mahasiswa - mahasiswi aktif UAJY khususnya mengenai bidang Information Technology (IT) serta melakukan sharing session dalam menghadapi masa perkuliahan saat ini.",
+    "short_description": "Puncak Sharing Alumni (webinar) ini bertujuan untuk memberikan gambaran prospek kerja kepada para mahasiswa mahasiswi aktif UAJY khususnya di bidang Information Technology (IT).",
+    "requirements": ["Umum", "Gratis", "Pendaftaran Online"],
+    "sponsors": [
+      {
+        "name": "HIMAFORKA UAJY",
+        "img": "/images/acara/sharing-alumni/sponsor-1.webp"
+      },
+      {
+        "name": "iFest#11",
+        "img": "/images/acara/sharing-alumni/sponsor-2.webp"
+      }
+    ],
+    "steps": [
+      {
+        "step": "Pergi ke Dashboard",
+        "description": "Daftar melalui <strong><a className=\"underline\" href=\"http://ifestuajy.com/dash/seminar_nasional\" target=\"_blank\" rel=\"noopener noreferrer\">Dashboard Puncak Sharing Alumni</a></strong>",
+        "icon": "/images/acara/sharing-alumni/step-1.webp"
+      },
+      {
+        "step": "Isi form pendaftaran",
+        "description": "Isi form secara online",
+        "icon": "/images/acara/sharing-alumni/step-2.webp"
+      },
+      {
+        "step": "Kegiatan Webinar",
+        "description": "Puncak Sharing Alumni dilakukan secara daring, informasi link meeting dikirimkan dalam grup peserta setelah melakukan pendaftaran",
+        "icon": "/images/acara/sharing-alumni/step-3.webp"
+      }
+    ],
+    "narasumber": [
+      {
+        "nama": "Raymond Wangsa Putra, S.Kom, B.Sc.",
+        "company": "Software Developer at PT Panin Sekuritas Tbk",
+        "keterangan": "Alumni Informatika UAJY Angkatan 2018",
+        "tema": "\"Facing The Future With Software Developer\""
+      },
+      {
+        "nama": "Arkin Eliezer Julijanto, S.Kom",
+        "company": "Junior Engineer at Sea Labs Indonesia",
+        "keterangan": "Alumni Informatika UAJY Angkatan 2018",
+        "tema": "\"Job Explorer: Being A Software QA Engineer\""
+      },
+      {
+        "nama": "Ezra Audivano, S.Kom",
+        "company": "Software Engineer - Web Platform at Skyshi Company",
+        "keterangan": "Alumni Informatika UAJY Angkatan 2018",
+        "tema": "\"Optimizing Performance for Web Platforms\""
+      },
+      {
+        "nama": "Muhammad Bayu Setya Wahyu A",
+        "company": "Curriculum Developer Team at Indobot Academy",
+        "keterangan": "Additional Session with Indobot",
+        "tema": "\"Get to know how the Internet of Things works\""
+      }
+    ],
+    "timeline": [
+      {
+        "name": "Pendaftaran",
+        "data": [
+          {
+            "name": "Pendaftaran Online",
+            "date": "19 Mei - 2 Juni 2023"
+          }
+        ]
+      },
+      {
+        "name": "Kegiatan Webinar",
+        "data": [
+          {
+            "name": "Pelaksanaan Webinar",
+            "date": "3 Juni 2023"
+          }
+        ]
+      }
+    ]
   }
 }
