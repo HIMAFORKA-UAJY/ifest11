@@ -1,4 +1,4 @@
-name: NodeJS CI/CD
+name: NodeJS CI
 
 on:
   push:
@@ -83,38 +83,26 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Build
-        run: pnpm build
-
       - id: get-date
         name: Get Date
         shell: bash
         run: |
-          echo "date=$(/bin/date -u "+%Y-%m-%dT%H:%M")" >> $GITHUB_OUTPUT
+          echo "date=$(/bin/date -u "+%Y-%m-%dT%H:%MZ")" >> $GITHUB_OUTPUT
+
+      - name: Setup NextJS cache
+        uses: actions/cache@v3
+        with:
+          path: .next
+          key: ${{ runner.os }}-nextjs-cache-${{ steps.get-date.outputs.date }}
+          restore-keys: |
+            ${{ runner.os }}-nextjs-cache-
+
+      - name: Build
+        run: pnpm build
 
       - name: Setup build cache
         uses: actions/cache/save@v3
         with:
           path: out
           key: ${{ runner.os }}-nextjs-build-${{ steps.get-date.outputs.date }}
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-
-      - name: Restore build cache
-        uses: actions/cache/restore@v3
-        with:
-          path: out
-          key: ${{ runner.os }}-nextjs-build-
-
-      - name: Deploy to Firebase
-        uses: FirebaseExtended/action-hosting-deploy@v0
-        with:
-          repoToken: "${{ secrets.GITHUB_TOKEN }}"
-          firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT_HIMAFORKA_UAJY_ID }}"
-          projectId: himaforka-uajy-id
-          channelId: live
+          
