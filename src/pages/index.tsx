@@ -30,7 +30,7 @@ const Home: FC = () => {
         <ContentRenderer content={kompetisi.wdc} />
         <ContentRenderer content={kompetisi.muc} />
         <ContentRenderer content={acara["donor-darah"]} />
-        <ContentRenderer content={acara["seminar-nasional"]} />
+        <ContentRenderer content={acara["sharing-alumni"]} />
         <Publication />
         <FAQ />
         <Sponsor />

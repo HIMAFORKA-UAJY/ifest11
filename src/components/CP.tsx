@@ -13,7 +13,7 @@ interface Props {
     | "wdc"
     | "muc"
     | "donor-darah"
-    | "seminar-nasional"
+    | "sharing-alumni"
     | "sponsorship"
     | "ifest-store"
     | "all";
@@ -48,7 +48,7 @@ const CP: FC<Props> = ({ className, get }: Props) => {
       case "donor-darah":
         setP([cp[3]]);
         break;
-      case "seminar-nasional":
+      case "sharing-alumni":
         setP([cp[4]]);
         break;
       case "sponsorship":
@@ -73,8 +73,8 @@ const CP: FC<Props> = ({ className, get }: Props) => {
         return "#fd9807";
       case "Donor Darah":
         return "#ff7676";
-      case "Seminar Nasional":
-        return "#5cc09f";
+      case "Puncak Sharing Alumni":
+        return "#5C469C";
       case "Sponsorship":
         return "#926dae";
       case "IFest Store":
