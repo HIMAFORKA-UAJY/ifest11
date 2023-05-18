@@ -126,6 +126,16 @@
         "img": "/images/acara/sharing-alumni/sponsor-2.webp"
       }
     ],
+    "supports": [
+      {
+        "name": "Dewa Web",
+        "img": "/images/acara/sharing-alumni/support-1.webp"
+      },
+      {
+        "name": "Indobot",
+        "img": "/images/acara/sharing-alumni/support-2.webp"
+      }
+    ],
     "steps": [
       {
         "step": "Pergi ke Dashboard",
@@ -158,7 +168,7 @@
       },
       {
         "nama": "Ezra Audivano Dirfa, S.Kom",
-        "company": "Software Engineer - Web Platform at Skyshi Company",
+        "company": "Front End Developer at Skyshi Company",
         "keterangan": "Alumni Informatika UAJY Angkatan 2018",
         "tema": "\"Optimizing Performance for Web Platforms\""
       },
@@ -183,7 +193,7 @@
         "name": "Kegiatan Webinar",
         "data": [
           {
-            "name": "Pelaksanaan Webinar",
+            "name": "Pelaksanaan Puncak Sharing Alumni",
             "date": "3 Juni 2023"
           }
         ]
