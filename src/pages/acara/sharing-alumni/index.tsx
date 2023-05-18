@@ -138,7 +138,7 @@ const Index = () => {
               <div className="text-center font-retroica text-3xl font-bold text-white lg:text-4xl">
                 Diselenggarakan Oleh
               </div>
-              <div className="grid gap-8 px-8 py-4 lg:mx-28 lg:mt-8 lg:grid-cols-2">
+              <div className="mb-20 grid gap-8 px-8 py-4 lg:mx-28 lg:mt-8 lg:grid-cols-2">
                 {/* <div className="col-start-1"></div> */}
                 {acara["sharing-alumni"].sponsors.map((sponsor, index) => {
                   return (
@@ -150,6 +150,26 @@ const Index = () => {
                         alt={sponsor.name.toLowerCase()}
                         className="w-1/2 lg:w-1/4"
                         src={sponsor.img}
+                      />
+                    </div>
+                  );
+                })}
+              </div>
+              <div className="text-center font-retroica text-3xl font-bold text-white lg:text-4xl">
+                Didukung Oleh
+              </div>
+              <div className="grid gap-8 px-8 py-4 lg:mx-28 lg:mt-8 lg:grid-cols-2">
+                {/* <div className="col-start-1"></div> */}
+                {acara["sharing-alumni"].supports.map((support, index) => {
+                  return (
+                    <div
+                      className="flex flex-col items-center justify-center bg-[#1D267D] py-10 text-center lg:py-4"
+                      key={index}
+                    >
+                      <img
+                        alt={support.name.toLowerCase()}
+                        className="w-1/2 lg:w-1/2"
+                        src={support.img}
                       />
                     </div>
                   );
@@ -238,7 +258,7 @@ const Index = () => {
                 </div>
               </div>
 
-              <div className="flex flex-col items-center justify-center pt-8">
+              <div className="flex flex-col items-center justify-center py-8">
                 <div className="mb-5 text-center font-retroica text-4xl text-[#D4ADFC]">
                   Timeline
                 </div>
