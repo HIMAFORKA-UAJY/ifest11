@@ -125,7 +125,7 @@ const Index = () => {
                           alt="poster"
                           className="h-full w-full object-contain object-center"
                           onClick={() => setOpenPoster(false)}
-                          src={acara["donor-darah"].poster}
+                          src={acara["sharing-alumni"].poster}
                         />
                       </Dialog.Panel>
                     </div>
