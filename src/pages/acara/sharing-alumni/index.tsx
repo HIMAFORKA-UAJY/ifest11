@@ -195,13 +195,13 @@ const Index = () => {
                           {step.step}
                         </div>
                         <div className="text-center font-louisgeorgecafe text-sm text-white">
-                          {index == 0 ? (
+                          {index == -1 ? (
                             <>
                               Daftar melalui{" "}
                               <strong>
                                 <a
                                   className="underline"
-                                  href="http://ifestuajy.com/dash/seminar_nasional"
+                                  href="#"
                                   onClick={() => setOpenModal(true)}
                                 >
                                   Dashboard Puncak Sharing Alumni

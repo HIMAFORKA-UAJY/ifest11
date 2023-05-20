@@ -108,11 +108,11 @@
     "abbreviation": "",
     "name": "Puncak Sharing Alumni",
     "url": "/acara/sharing-alumni",
-    "img": "/images/acara/ill-seminar-nasional.webp",
-    "poster": "/images/acara/poster-seminar-nasional.webp",
+    "img": "/images/acara/ill-sharing-alumni.webp",
+    "poster": "/images/acara/poster-sharing-alumni.webp",
     "title_top": "“Career Fortune Telling:",
     "title_bottom": "Information Technology”",
-    "date_available": "2023-05-18 23:59",
+    "date_available": "2023-05-19 23:59",
     "date_end": "2023-06-04 23:59",
     "description": "adalah kegiatan webinar yang dimana bertujuan untuk memberikan gambaran prospek kerja kepada para mahasiswa - mahasiswi aktif UAJY khususnya mengenai bidang Information Technology (IT) serta melakukan sharing session dalam menghadapi masa perkuliahan saat ini.",
     "short_description": "Puncak Sharing Alumni (webinar) ini bertujuan untuk memberikan gambaran prospek kerja kepada para mahasiswa mahasiswi aktif UAJY khususnya di bidang Information Technology (IT).",
@@ -140,7 +140,7 @@
     "steps": [
       {
         "step": "Pergi ke Dashboard",
-        "description": "Daftar melalui <strong><a className=\"underline\" href=\"http://ifestuajy.com/dash/seminar_nasional\" target=\"_blank\" rel=\"noopener noreferrer\">Dashboard Puncak Sharing Alumni</a></strong>",
+        "description": "Daftar melalui <strong><a className=\"underline\" href=\"https://ifestuajy.com/dash/sharing_alumni\" target=\"_blank\" rel=\"noopener noreferrer\">Dashboard Puncak Sharing Alumni</a></strong>",
         "icon": "/images/acara/sharing-alumni/step-1.webp"
       },
       {
@@ -186,7 +186,7 @@
         "data": [
           {
             "name": "Pendaftaran Online",
-            "date": "19 Mei - 2 Juni 2023"
+            "date": "20 Mei - 2 Juni 2023"
           }
         ]
       },
